@@ -1,8 +1,16 @@
 require.config({
-    // 默认data-main文件所在目录
+    // 默认data-main文件所在的目录
+    // baseUrl:'js',
+
+    // 别名/虚拟路径
     paths:{
-        'jq':'../lib/jquery-3.2.1.',
-        'zoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
-        
+        'jquery':'../lib/jquery-3.2.1',
+        'common':'common',
+        'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
+        'ajax':'../lib/ajax_JJ'
+    },
+    shim:{
+        // 设置依赖
+        gdszoom:['jquery']
     }
-})
+});
