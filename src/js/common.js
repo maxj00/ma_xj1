@@ -1,4 +1,3 @@
-define(function(){console.log(666)
 		/**
 	 * [获取一个范围内的随机整数]
 	 * @param  {Number} min [最小值]
@@ -282,4 +281,3 @@ define(function(){console.log(666)
 		return Object.prototype.toString.call(data).slice(8,-1).toLowerCase();
 	}
 
-})

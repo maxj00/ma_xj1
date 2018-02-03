@@ -79,6 +79,7 @@
 #header .nav .container .category .category-sec {
   display: none;
   position: absolute;
+  background: #fff;
   left: 0px;
   top: 30px;
   border: 4px solid #BE2124;

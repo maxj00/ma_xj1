@@ -7,10 +7,12 @@ require.config({
         'jquery':'../lib/jquery-3.2.1',
         'common':'common',
         'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
+        'mjCarousel':'../lib/jquery-mjCarousel/jquery.mjCarousel',
         'ajax':'../lib/ajax_JJ'
     },
     shim:{
         // 设置依赖
-        gdszoom:['jquery']
+        gdszoom:['jquery'],
+        mjCarousel:['jquery','common']
     }
 });

@@ -1,13 +1,13 @@
 ;(function($){
 	// $.prototype.lxCarousel = function(options){
-	$.fn.mjCarousel = function(options){
+	$.fn.lxCarousel = function(options){
 		// 如何安全使用$：匿名函数传参
 		// 如何获取.box：this=>jquery对象
 
 		// 默认参数
 		var defualts = {
-			width:320,
-			height:320,
+			weight:960,
+			hegiht:440,
 			index:0,
 			page:true,
 			autoPlay:true,
@@ -34,7 +34,7 @@
 			var $this = $(this);
 
 			// 添加特定类
-			$this.addClass('lx-carousel');
+			$this.addClass('focus');
 
 			// 设定样式
 			$this.css({
@@ -86,7 +86,7 @@
 				var target = -opt.index*opt.height;
 
 				$ul.animate({top:target});
-			}
+			}console.log(111)
 		
 		
 		});
@@ -95,5 +95,15 @@
 		// return this便于链式调用
 		// return this;
 	}
+
+
+	// 插件库建议写法
+	// $.fn.extend({
+	// 	lxCarousel:function(){},
+	// 	lxDraggable:function(){},
+
+	// 	// 倒计时插件
+	// 	lxCountdown:function(){}
+	// })
 
 })(jQuery);
