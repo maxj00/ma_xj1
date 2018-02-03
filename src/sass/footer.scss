@@ -1,3 +1,4 @@
+$v1background:url(../imgaes/sprite_v1.gif) no-repeat;
 #footer{
     height: 505px;
     background:#F1F1F1;
@@ -16,7 +17,7 @@
                         width: 50%;
                         float:left;
                         a{
-                            background:url(../imgaes/sprite_v1.gif) no-repeat;
+                            background:$v1background;
                             padding-left: 20px;
                         }
                         .sina{background-position:0 -408px;}
@@ -34,14 +35,15 @@
     .footer_b{
         .container{
             .promises-box{
+                height: 70px;
                 width: 900px;
                 margin:auto;
-                padding: 10px 0;
+                padding: 20px 0;
                 li{
                     float:left;
                     width: 110px;
                     height: 24px;
-                    background:url(../imgaes/sprite_v1.gif) no-repeat;
+                    background:$v1background;
                     margin-right: 70px;
                 }
                 .promises1{background-position:0 -280px;}
@@ -49,6 +51,49 @@
                 .promises3{background-position:-224px -280px;}
                 .promises4{background-position:0 -280px;}
                 .promises5{background-position:0 -305px;}
+            }
+            .brief{
+                height: 20px;
+                width: 602px;
+                text-index:center;
+                margin:auto;
+                li{
+                    float:left;
+                }
+            }
+            .links{
+                padding: 10px 100px 0;
+                line-height: 20px;
+                margin:auto;
+                width: 1000px;
+                dt{
+                    float:left;
+                    width: 60px;
+                    font-weight:60px;
+                }
+            }
+            .copyright{
+                padding-top: 5px;
+                line-height: 20px;
+                margin:auto;
+                text-align:center;
+                width: 476px;
+            }
+            .cert{
+                li{
+                    margin-left: 10px;
+                    float:left;
+                    height: 42px;
+                    width: 139px;
+                    background:$v1background;
+                }
+                .cert1{background-position:0 -490px;}
+                .cert2{background-position:-143px -490px;}
+                .cert3{background-position:0 -534px;}
+                .cert4{background-position:-143px -534px;}
+                .cert5{background-position:0 -577px;width: 118px;}
+                .cert6{background-position:-121px -577px;width: 102px;}
+                .cert7{background-position:-224px -577px;}
             }
         }
     }

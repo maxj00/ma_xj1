@@ -1,0 +1,173 @@
+#banner {
+  height: 440px;
+}
+
+#main {
+  padding-top: 10px;
+}
+
+#main .container .brand-wrap {
+  width: 1076px;
+  height: 73px;
+  border: 2px solid #ccc;
+}
+
+#main .container .tab-box {
+  padding-top: 12px;
+}
+
+#main .container .tab-box .tab-box_l {
+  width: 798px;
+  height: 358px;
+  border: 1px solid #ccc;
+}
+
+#main .container .tab-box .tab-box_r {
+  position: relative;
+  padding: 10px;
+  width: 266px;
+  height: 115px;
+  border: 2px solid #ccc;
+}
+
+#main .container .tab-box .tab-box_r .gengduo {
+  position: absolute;
+  left: 80%;
+  top: 10px;
+}
+
+#main .container .floor1 {
+  height: 550px;
+}
+
+#main .container .floor1 .floor1_t {
+  width: 1080px;
+  height: 46px;
+  border-bottom: 5px solid #5AD9BC;
+}
+
+#main .container .floor1 .floor1_t .floor1_tl {
+  width: 300px;
+  line-height: 42px;
+  color: #5AD9BC;
+  font-size: 26px;
+}
+
+#main .container .floor1 .floor1_t .floor1_tl em {
+  float: left;
+  display: block;
+  font-size: 36px;
+  color: #fff;
+  line-height: 42px;
+  height: 42px;
+  width: 70px;
+  background: #5AD9BC;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#main .container .floor1 .floor1_t .floor1_tc ul li {
+  padding-right: 5px;
+  color: #ddd;
+  float: left;
+  line-height: 42px;
+}
+
+#main .container .floor1 .floor1_t .floor1_tr {
+  color: #4FC4D7;
+  height: 41px;
+  width: 166px;
+  background: #ddd;
+  text-align: center;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+#main .container .floor1 .floor1_main {
+  height: 500px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l {
+  height: 500px;
+  width: 178px;
+  background: #F4F4F4;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f1-brand {
+  height: 400px;
+  padding-left: 5px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f1-brand li {
+  float: left;
+  width: 83px;
+  height: 56px;
+  background: #fff;
+  margin: 1px 0 0 1px;
+  text-align: center;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f1_size {
+  margin: 6px 0 0 5px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f1_size li {
+  float: left;
+  background: #ddd;
+  margin: 2px 0 0 2px;
+  text-align: center;
+  font-size: 18px;
+  width: 26px;
+  height: 26px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f_color {
+  margin: 6px 0 0 5px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_l .f_color li {
+  float: left;
+  background: #ddd;
+  margin: 2px 0 0 2px;
+  width: 26px;
+  height: 26px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_c .goods-small {
+  width: 444px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_c .goods-small li {
+  background-color: #fff;
+  border-left: 1px solid #F4F4F4;
+  border-bottom: 1px solid #F4F4F4;
+  float: left;
+  width: 148px;
+  height: 166px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_c .goods-big {
+  width: 303px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_c .goods-big li {
+  background-color: #fff;
+  border-left: 1px solid #F4F4F4;
+  border-bottom: 1px solid #F4F4F4;
+  height: 251px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_r {
+  border: 1px solid #f4f4f4;
+  height: 500px;
+  width: 157px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_r .rank li {
+  border-bottom: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  height: 32px;
+  padding: 0 5px;
+  line-height: 32px;
+  text-align: center;
+}

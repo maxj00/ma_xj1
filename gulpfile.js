@@ -27,7 +27,7 @@ let path={
         // 指定端口
         port:17081,
         // 代理服务器
-        proxy:'http://localhost:17080/html/footer.html',
+        proxy:'http://localhost:17080/',
         // 监听文件修改
         files:['./src/**/*.html','./src/css/*.css','./src/api/*.php']
     });
