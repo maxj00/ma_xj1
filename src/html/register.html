@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>淘鞋网注册</title>
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/register.css" />
+        <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+        <script src="../js/require.js" data-main="../js/register"></script>
+    </head>
+    <body>
+        <div class="login">
+            <div id="headerbox"></div>
+            <div id="main">
+                <div class="container">
+                    <div class="main_l fr form-horizontal">
+                        <h3>用户注册</h3>
+                        <div class="register_bd">
+                            <ul class="clearfix">
+                                <li  class="form-group">
+                                    <label for="" class="fl">登录名：</label>
+                                    <input type="text" class="form-control fl" id="username" placeholder="输入登录名"/><span class="tip"></span>
+                                </li>
+                                <p id="username_tip">请填写正确的手机</p>
+                                <li  class="form-group">
+                                    <label for="" class="fl">设置密码:</label>
+                                    <input type="password" class="form-control fl" id="password"  placeholder="输入登录密码" /><span class="tip"></span>
+                                </li>
+                                <p id="password_tip">6-20位，区分大小写, 不能与用户名相同。</p>
+                                <li  class="form-group">
+                                    <label for="" class="fl">确认密码:</label>
+                                    <input type="password" class="form-control fl" id="o_password"  placeholder="输入登录密码" />
+                                </li>
+                                <p id="o_password_tip">请再输入一遍您上面输入的密码</p>
+                                <li  class="form-group">
+                                    <label for="" class="fl">验证码:</label>
+                                    <input type="text" class="form-control fl" id="yanz" />
+                                    <span id="rNumber">1234</span>
+                                    <input type="button"  class="btnrefresh" value="(换个验证码)" />
+                                </li>
+                                <p id="yanz_tip">请输入右侧的验证码</p>
+                                <li>
+                                    <label for=""></label>
+                                    <button id="btnRegister">同意协议并注册</button> 
+                                    <a href="">《淘鞋网服务协议》</a>
+                                </li>
+                                <p id="register_tip"></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerbox"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+#main .container {
+  width: 1190px;
+}
+
+#main .container .main_t ul li {
+  width: 396.66667px;
+  float: left;
+}
+
+#main .container .filter {
+  position: relative;
+  padding-top: 10px;
+}
+
+#main .container .filter .filter_t {
+  height: 40px;
+  border: 1px solid #FEE7E7;
+  background-color: #FFF7F7;
+  position: relative;
+  padding: 0 20px;
+  line-height: 40px;
+  margin-bottom: -1px;
+}
+
+#main .container .filter .filter_t ul li {
+  float: left;
+  width: 65px;
+}
+
+#main .container .filter .filter_t ul .arrowy {
+  background: url(../list-picture/arrowy.gif) no-repeat 53px 3px;
+}
+
+#main .container .filter .filter-main {
+  border: 1px solid #FEE7E7;
+}
+
+#main .container .filter .filter-main dl {
+  border-top: 1px dotted #FEE7E7;
+}
+
+#main .container .filter .filter-main dl dt {
+  float: left;
+  width: 80px;
+  text-align: center;
+  text-align: right;
+  line-height: 24px;
+  padding: 5px 0;
+}
+
+#main .container .filter .filter-main dl dd {
+  padding: 5px 10px 5px 30px;
+}
+
+#main .container .filter .filter-main dl dd ul li {
+  float: left;
+  margin-left: 5px;
+  line-height: 24px;
+  width: 130px;
+}
+
+#main .container .filter .filter-main dl dd .f_color li {
+  width: 18px;
+  height: 18px;
+}
+
+#main .container .filter .filter-main dl dd .f_color li a {
+  line-height: 24px;
+  margin: 0 5px;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+#main .container .filter .more {
+  margin-top: -1px;
+  height: 22px;
+  width: 112px;
+  border: 1px solid #FEE7E7;
+  border-top: 1px solid #fff;
+  position: absolute;
+  left: 45%;
+  top: 100%;
+  color: red;
+  background: #fff;
+}
+
+#main .container .main_goods {
+  padding-top: 30px;
+}
+
+#main .container .main_goods .list-top {
+  border: 1px solid #FEE7E7;
+  background-color: #FFF7F7;
+  height: 35px;
+  padding: 6px 6px 6px 0;
+}
+
+#main .container .main_goods .list-top .display-more {
+  width: 340px;
+}
+
+#main .container .main_goods .list-top .display-more ul li {
+  float: left;
+  border-right: 1px solid #dfdfdf;
+}
+
+#main .container .main_goods .list-top .display-more ul li a {
+  display: block;
+  width: 83px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  margin: 0 -1px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#main .container .main_goods .list-top .display-more ul .selected {
+  background: url(../list-picture/tab_selected.gif) no-repeat 0 0;
+  margin: -10px -1px -15px;
+  padding: 10px 0 15px;
+  border: none;
+}
+
+#main .container .main_goods .list-top .sort-more a {
+  float: left;
+  margin-left: 8px;
+  line-height: 20px;
+}
+
+#main .container .main_goods .goods_display {
+  margin-top: 18px;
+}
+
+#main .container .main_goods .goods_display ul {
+  position: relative;
+  margin: -5px;
+  padding: 10px 0;
+}
+
+#main .container .main_goods .goods_display ul li {
+  float: left;
+  padding: 5px;
+  display: inline;
+  background: #ddd;
+  width: 232px;
+  height: 343px;
+}
+
+#main .container .main_goods .goods_display ul li .thumbbox .thumb-main ul li {
+  float: left;
+  border: none;
+  padding: 0;
+  margin: 0 1px;
+  width: auto;
+  height: auto;
+}

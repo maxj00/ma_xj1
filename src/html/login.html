@@ -5,14 +5,51 @@
         <title>淘鞋网登录</title>
         <link rel="stylesheet" href="../css/base.css" />
         <link rel="stylesheet" href="../css/login.css" />
+        <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
         <script src="../js/require.js" data-main="../js/login"></script>
     </head>
     <body>
         <div class="login">
             <div id="headerbox"></div>
             <div id="main">
-                <div class="container">
-                    
+                <div class="container clearfix">
+                    <div class="main_l fr form-horizontal">
+                        <h3>登录</h3>
+                        <div class="login_bd">
+                            <ul class="clearfix">
+                                <li  class="form-group">
+                                    <label for="" class="fl">登录名：</label>
+                                    <input type="text" class="form-control fl" id="l_email"     placeholder="输入登录名"/>
+                                    <span id="username_tip"></span>
+                                </li>
+                                <li  class="form-group">
+                                    <label for="" class="fl">密码:</label>
+                                    <input type="password" class="form-control fl" id="l_password"  placeholder="输入登录密码" /><span class="password_tip"></span>
+                                </li>
+                                <li>
+                                    <label for=""></label>
+                                    <button id="btnSignIn">登录</button> 
+                                    <a href="">忘记密码？</a>
+                                </li>
+                                <li>
+                                    <label for="" class="fl"></label>
+                                    <div class="field fl">
+                                        没有淘鞋账号？ 
+                                        <a href="">立即注册</a> 
+                                        <a href="">淘鞋招行联名卡用户注册</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="partner">
+                                        <p>使用合作网站账号登录： </p>
+                                        <a href="http://login.taobao.com/member/login.jhtml?f=top&redirectURL=http%3A%2F%2Fcontainer.api.taobao.com%2Fcontainer%3Fappkey%3D23477211%26redirectURL=http://www.taoxie.com" name="taobao" class="taobao"></a> 
+                                        <a name="sina" href="http://www.taoxie.com/api/sinaloginpost.aspx" class="sina"></a> <a href="http://www.taoxie.com/api/KaiXinLogin.aspx" name="kaixin" class="kaixin"></a> <a id="qqunion" name="qq" href="http://www.taoxie.com/qq/logintransfer.aspx" class="qq"></a> <a href="http://www.taoxie.com/api/_163LoginPost.aspx" name="netease" class="netease"></a> <a id="xn_login_image" name="renren" href="javascript:void(0);" class="renren">人人网</a><a href="http://www.taoxie.com/api/xunleiloginpost.aspx" class="xunlei"></a> <a href="http://www.taoxie.com/api/139/cmpaylogin.aspx" class="mobile"></a> </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="footerbox"></div>
