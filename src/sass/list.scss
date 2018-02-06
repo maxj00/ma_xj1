@@ -1,4 +1,4 @@
-$conw:1190px;
+$conw:1210px;
 #main{
     .container{
         width: $conw;
@@ -126,12 +126,12 @@ $conw:1190px;
                 margin-top: 18px;
                 ul{
                     position: relative;
-                    margin: -5px;
+                    margin: -5px 0;
                     padding: 10px 0;
                     li{
                         float: left;
                         display: inline;
-                        height: 343px;
+                        height: 350px;
                         margin-right: 10px;
                         .goods_list{
                             border: 1px solid #f8f8f8;

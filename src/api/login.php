@@ -1,6 +1,8 @@
 <?php
-	include 'connect.php';
+	// include 'connect.php';
+	require('connect.php');
 	
+	// 获取前端数据
 	$username = isset($_GET['l_email']) ? $_GET['l_email'] : '';
 	$password = isset($_GET['l_password']) ? $_GET['l_password'] : '';
 
@@ -12,22 +14,21 @@
 
 	// 获取查询结果
 	$result = $conn->query($sql);
-	if($result->num_rows>0){
-		echo 'ok';
-	}else{
-		echo 'fail';
-	}
-
-	// $row = $result->fetch_row();
-
-	//print_r($row[0]);
-
-
-	// if($row[0]){
+	// if($result->num_rows>0){
 	// 	echo 'ok';
 	// }else{
 	// 	echo 'fail';
 	// }
+
+
+	//print_r($row[0]);
+
+
+	if($result->num_rows > 0){
+		echo 'success';
+	}else{
+		echo 'fail';
+	}
 	
 
 	// 释放查询内存(销毁)

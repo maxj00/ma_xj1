@@ -35,29 +35,29 @@ require(['config'],function(){
                 username_tip.innerHTML = '手机号可用';
                 username_tip.style.color = "green";
             }
-            if(_username !== '') {
+            // if(_username !== '') {
 
-                ajax.get({
-                    data: {
-                        username: _username
-                    },
-                    url: `../api/register.php`,
-                    success: function(res) {
-                        console.log(res)
-                        if(res == 'fail') {
+            //     ajax.get({
+            //         data: {
+            //             username: _username
+            //         },
+            //         url: `../api/register.php`,
+            //         success: function(res) {
+            //             console.log(res)
+            //             if(res == 'fail') {
 
-                            tip.innerHTML = "已注册！";
-                            tip.style.color = "red";
-                            btnRegister.disabled = true;
-                        } else {
-                            tip.innerHTML = "正确";
-                            tip.style.color = "green";
-                            btnRegister.disabled = false;
-                        }
-                    }
-                })
+            //                 tip.innerHTML = "已注册！";
+            //                 tip.style.color = "red";
+            //                 btnRegister.disabled = true;
+            //             } else {
+            //                 tip.innerHTML = "正确";
+            //                 tip.style.color = "green";
+            //                 btnRegister.disabled = false;
+            //             }
+            //         }
+            //     })
 
-            }
+            // }
         }
 
         //用户注册的密码 格式要求
@@ -141,12 +141,12 @@ require(['config'],function(){
                     },
                     success: function(data) {
                         console.log(data)
-                        if(data == 'ok') {
-                            register_tip.innerHTML = "注册失败，请稍后再试";
-                            register_tip.style.color = "red";
-                        } else {
+                        if(data == 'success') {
                             alert('注册成功');
                             window.location.href = "../index.html";
+                        } else {
+                            register_tip.innerHTML = "注册失败，请稍后再试";
+                            register_tip.style.color = "red";
                         }
                     }
                 })

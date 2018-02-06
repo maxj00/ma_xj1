@@ -1,9 +1,9 @@
 #main .container {
-  width: 1190px;
+  width: 1210px;
 }
 
 #main .container .main_t ul li {
-  width: 396.66667px;
+  width: 403.33333px;
   float: left;
 }
 
@@ -135,14 +135,14 @@
 
 #main .container .main_goods .goods_display ul {
   position: relative;
-  margin: -5px;
+  margin: -5px 0;
   padding: 10px 0;
 }
 
 #main .container .main_goods .goods_display ul li {
   float: left;
   display: inline;
-  height: 343px;
+  height: 350px;
   margin-right: 10px;
 }
 

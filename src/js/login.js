@@ -16,27 +16,23 @@ require(['config'],function(){
                     return false;
                 }
             }
-        btnSignIn.onclick = function() {
-            var _username0 = username0.value;
-            var _password0 = password0.value;
-            if(_username0 !== '') {
-                ajax.get({
-                    data: {
-                        username: _username0,
-                        password: _password0,
-                    },
-                    url: `../api/login.php`,
-                    success: function(data) {console.log(data)
-                        // if(data !== 'ok') {
-                            
-                        //     window.location.href = "../index.html";
-                            
-                        // } else {
-                        //     alert('用户名或密码错误');
-                        // }
+        $('#btnSignIn').on('click',function(){
+            $.ajax({
+                url:'../api/login.php',
+                data:{
+                    username:$('#username').val(),
+                    password:$('#password').val()
+                },
+                success: function(data) {console.log(data)
+                    if(data == 'success') {
+                        
+                        // window.location.href = "../index.html";
+                        
+                    } else {
+                        alert('用户名或密码错误');
                     }
-                })
-            }
-        }
+                }
+            })
+        })
     })
 })
