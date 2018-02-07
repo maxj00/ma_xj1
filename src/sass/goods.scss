@@ -21,7 +21,7 @@
             .details_l{
                 float:left;
                 width: 558px;
-                .goods{
+                .goodsimg{
                     width: 558px;
                     height: 558px;
                     border: 1px solid #ddd;
@@ -63,6 +63,14 @@
                     color: #666;
                 }
                 .summary{
+                    .real-price{
+                        font-size: 32px;
+                        line-height: 26px;
+                        color: #ff5500;
+                        font-family: tahoma;
+                        display: inline-block;
+                        vertical-align: baseline;
+                    }
                     .comment-star{
                         .star{
                             display: inline-block;
@@ -90,7 +98,6 @@
                                 width: 26px;
                                 height: 26px;
                                 border: 1px solid #ddd;
-                                background-color: #fff;
                                 background-repeat: no-repeat;
                                 text-align: center;
                                 line-height: 26px;
@@ -122,7 +129,12 @@
                                 .sku-color{
                                     li{
                                         float: left;
-                                        height: 60px;width: 60px;
+                                        a{
+                                            display:block;
+                                        }
+                                        &:hover{
+                                            border:1px solid #red;
+                                        }
                                     }
                                 }
                                 .qty{

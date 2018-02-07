@@ -3,25 +3,13 @@
 	require('connect.php');
 	
 	// 获取前端数据
-	$username = isset($_GET['l_email']) ? $_GET['l_email'] : '';
-	$password = isset($_GET['l_password']) ? $_GET['l_password'] : '';
+	$username = isset($_GET['username']) ? $_GET['username'] : null;
+	$password = isset($_GET['password']) ? $_GET['password'] : null;
 
 	// 密码md5加密
-	$password = md5($password);
+	$password0 = md5($password);
+    $result = $conn->query("select * from user where username='$username'");
 
-	$sql = "select * from user where username='$username' and password='$password'";
-
-
-	// 获取查询结果
-	$result = $conn->query($sql);
-	// if($result->num_rows>0){
-	// 	echo 'ok';
-	// }else{
-	// 	echo 'fail';
-	// }
-
-
-	//print_r($row[0]);
 
 
 	if($result->num_rows > 0){

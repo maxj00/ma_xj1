@@ -2,12 +2,12 @@
 
 #banner .container { height: 440px; }
 
-#banner .container .focus { position: relative; width: 1080px; height: 440px; overflow: hidden; }
+#banner .container .focus { position: relative; width: 1210px; height: 440px; overflow: hidden; }
 
 #banner .container .focus ul { position: absolute; overflow: hidden; }
 
 #banner .container .focus ul li { float: left; }
-#banner .container .focus ul li img{width: 1080px;}
+#banner .container .focus ul li img{width: 1210px;}
 .focus .page { position: absolute; right: 45%; bottom: 0; padding: 10px; }
 
 .focus .page span { display: inline-block; margin: 0 5px; width: 20px; height: 20px; line-height: 30px; background-color: #fff; text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }

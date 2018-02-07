@@ -53,7 +53,7 @@
   line-height: 22px;
 }
 
-#main .container .main_l .login_bd ul li #l_email, #main .container .main_l .login_bd ul li #l_password {
+#main .container .main_l .login_bd ul li #username, #main .container .main_l .login_bd ul li #password {
   width: 210px;
 }
 

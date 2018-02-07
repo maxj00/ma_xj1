@@ -1,5 +1,5 @@
 require(['config'],function(){
-    require(['jquery','common','ajax'],function($){console.log($)
+    require(['jquery','common'],function($){console.log($)
         $('#headerbox').load('../html/header.html')
         $('#footerbox').load('../html/footer.html')
         //获取页面上的元素
@@ -37,7 +37,7 @@ require(['config'],function(){
             }
             if(_username !== '') {
 
-                ajax.get({
+                $.ajax({
                     data: {
                         username: _username
                     },
@@ -133,7 +133,7 @@ require(['config'],function(){
             if(_username !== '') {
 
                 // 发起ajax请求
-                ajax.get({
+                $.ajax({
                     url: `../api/register.php`,
                     data: {
                         username: _username,
@@ -142,11 +142,11 @@ require(['config'],function(){
                     success: function(data) {
                         console.log(data)
                         if(data == 'success') {
-                            alert('注册成功');
-                            window.location.href = "../index.html";
-                        } else {
                             register_tip.innerHTML = "注册失败，请稍后再试";
                             register_tip.style.color = "red";
+                        } else {
+                            alert('注册成功');
+                            window.location.href = "../html/login.html";
                         }
                     }
                 })

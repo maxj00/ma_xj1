@@ -26,6 +26,5 @@
 
     //查询前设置编码，防止输出乱码
     $conn->set_charset('utf8');
-    $result = $conn->query("select * from goods");
 
 ?>

@@ -1,9 +1,9 @@
 #main .container {
-  width: 1210px;
+  width: 1220px;
 }
 
 #main .container .main_t ul li {
-  width: 403.33333px;
+  width: 406.66667px;
   float: left;
 }
 
@@ -179,16 +179,23 @@
 
 #main .container .main_goods .goods_display ul li .goods_list .thumbbox .thumb-main ul li {
   float: left;
-  border: 1px solid #ccc;
   padding: 1px;
   margin: 0 2px;
   width: auto;
   height: auto;
 }
 
+#main .container .main_goods .goods_display ul li .goods_list .thumbbox .thumb-main ul li img {
+  border: 1px solid #ccc;
+}
+
 #main .container .main_goods .goods_display ul li .goods_list .thumbbox .thumb-main ul li:hover {
   border: 1px solid red;
   margin: 0 2px;
+}
+
+#main .container .main_goods .goods_display ul li .goods_list .thumbbox .thumb-main ul li:hover img {
+  border: none;
 }
 
 #main .container .main_goods .goods_display ul li .goods_list .price .real-price {

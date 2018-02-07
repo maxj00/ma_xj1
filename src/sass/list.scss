@@ -1,4 +1,4 @@
-$conw:1210px;
+$conw:1220px;
 #main{
     .container{
         width: $conw;
@@ -163,14 +163,19 @@ $conw:1210px;
                                     ul{
                                         li{
                                             float: left;
-                                            border:1px solid #ccc;
                                             padding: 1px;
                                             margin:0 2px;
                                             width: auto;
                                             height: auto;
+                                            img{
+                                                border:1px solid #ccc;
+                                            }
                                             &:hover {
                                                 border:1px solid red;
                                                 margin:0 2px;
+                                                img{
+                                                    border:none;
+                                                }
                                             }
                                         }
                                     }

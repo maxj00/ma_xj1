@@ -1,5 +1,5 @@
 ;(function($){
-	$.fn.gdsZoom = function(options){
+	$.fn.gdsZoom = function(options){console.log(1)
 		// 默认值
 		var defaults = {
 			// 宽高

@@ -27,14 +27,14 @@
   width: 558px;
 }
 
-#main .container .details-goods .details_l .goods {
+#main .container .details-goods .details_l .goodsimg {
   width: 558px;
   height: 558px;
   border: 1px solid #ddd;
   text-align: center;
 }
 
-#main .container .details-goods .details_l .goods img {
+#main .container .details-goods .details_l .goodsimg img {
   width: 556px;
   height: 556px;
 }
@@ -70,6 +70,15 @@
   color: #666;
 }
 
+#main .container .details-goods .details_r .summary .real-price {
+  font-size: 32px;
+  line-height: 26px;
+  color: #ff5500;
+  font-family: tahoma;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 #main .container .details-goods .details_r .summary .comment-star .star {
   display: inline-block;
   width: 63px;
@@ -98,7 +107,6 @@
   width: 26px;
   height: 26px;
   border: 1px solid #ddd;
-  background-color: #fff;
   background-repeat: no-repeat;
   text-align: center;
   line-height: 26px;
@@ -134,8 +142,14 @@
 
 #main .container .details-goods .details_r .sku .sku-box dl dd .sku-color li {
   float: left;
-  height: 60px;
-  width: 60px;
+}
+
+#main .container .details-goods .details_r .sku .sku-box dl dd .sku-color li a {
+  display: block;
+}
+
+#main .container .details-goods .details_r .sku .sku-box dl dd .sku-color li:hover {
+  border: 1px solid #red;
 }
 
 #main .container .details-goods .details_r .sku .sku-box dl dd .qty {

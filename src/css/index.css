@@ -3,7 +3,6 @@
 }
 
 #main .container .brand-wrap {
-  width: 1076px;
   height: 73px;
   border: 2px solid #ccc;
 }
@@ -32,24 +31,23 @@
   top: 10px;
 }
 
-#main .container .floor1 {
+#main .container .floor1, #main .container .floor2 {
   height: 550px;
 }
 
-#main .container .floor1 .floor1_t {
-  width: 1080px;
+#main .container .floor1 .floor1_t, #main .container .floor1 .floor2_t, #main .container .floor2 .floor1_t, #main .container .floor2 .floor2_t {
   height: 46px;
   border-bottom: 5px solid #5AD9BC;
 }
 
-#main .container .floor1 .floor1_t .floor1_tl {
+#main .container .floor1 .floor1_t .floor1_tl, #main .container .floor1 .floor1_t .floor2_tl, #main .container .floor1 .floor2_t .floor1_tl, #main .container .floor1 .floor2_t .floor2_tl, #main .container .floor2 .floor1_t .floor1_tl, #main .container .floor2 .floor1_t .floor2_tl, #main .container .floor2 .floor2_t .floor1_tl, #main .container .floor2 .floor2_t .floor2_tl {
   width: 300px;
   line-height: 42px;
   color: #5AD9BC;
   font-size: 26px;
 }
 
-#main .container .floor1 .floor1_t .floor1_tl em {
+#main .container .floor1 .floor1_t .floor1_tl em, #main .container .floor1 .floor1_t .floor2_tl em, #main .container .floor1 .floor2_t .floor1_tl em, #main .container .floor1 .floor2_t .floor2_tl em, #main .container .floor2 .floor1_t .floor1_tl em, #main .container .floor2 .floor1_t .floor2_tl em, #main .container .floor2 .floor2_t .floor1_tl em, #main .container .floor2 .floor2_t .floor2_tl em {
   float: left;
   display: block;
   font-size: 36px;
@@ -62,14 +60,14 @@
   margin-right: 10px;
 }
 
-#main .container .floor1 .floor1_t .floor1_tc ul li {
+#main .container .floor1 .floor1_t .floor1_tc ul li, #main .container .floor1 .floor1_t .floor2_tc ul li, #main .container .floor1 .floor2_t .floor1_tc ul li, #main .container .floor1 .floor2_t .floor2_tc ul li, #main .container .floor2 .floor1_t .floor1_tc ul li, #main .container .floor2 .floor1_t .floor2_tc ul li, #main .container .floor2 .floor2_t .floor1_tc ul li, #main .container .floor2 .floor2_t .floor2_tc ul li {
   padding-right: 5px;
   color: #ddd;
   float: left;
   line-height: 42px;
 }
 
-#main .container .floor1 .floor1_t .floor1_tr {
+#main .container .floor1 .floor1_t .floor1_tr, #main .container .floor1 .floor1_t .floor2_tr, #main .container .floor1 .floor2_t .floor1_tr, #main .container .floor1 .floor2_t .floor2_tr, #main .container .floor2 .floor1_t .floor1_tr, #main .container .floor2 .floor1_t .floor2_tr, #main .container .floor2 .floor2_t .floor1_tr, #main .container .floor2 .floor2_t .floor2_tr {
   color: #4FC4D7;
   height: 41px;
   width: 166px;
@@ -79,35 +77,34 @@
   font-weight: bold;
 }
 
-#main .container .floor1 .floor1_main {
+#main .container .floor1 .floor1_main, #main .container .floor1 .floor2_main, #main .container .floor2 .floor1_main, #main .container .floor2 .floor2_main {
   height: 500px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l {
+#main .container .floor1 .floor1_main .floor_main_l, #main .container .floor1 .floor2_main .floor_main_l, #main .container .floor2 .floor1_main .floor_main_l, #main .container .floor2 .floor2_main .floor_main_l {
   height: 500px;
   width: 178px;
   background: #F4F4F4;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f1-brand {
-  height: 400px;
+#main .container .floor1 .floor1_main .floor_main_l .f1-brand, #main .container .floor1 .floor1_main .floor_main_l .f2-brand, #main .container .floor1 .floor2_main .floor_main_l .f1-brand, #main .container .floor1 .floor2_main .floor_main_l .f2-brand, #main .container .floor2 .floor1_main .floor_main_l .f1-brand, #main .container .floor2 .floor1_main .floor_main_l .f2-brand, #main .container .floor2 .floor2_main .floor_main_l .f1-brand, #main .container .floor2 .floor2_main .floor_main_l .f2-brand {
   padding-left: 5px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f1-brand li {
+#main .container .floor1 .floor1_main .floor_main_l .f1-brand li, #main .container .floor1 .floor1_main .floor_main_l .f2-brand li, #main .container .floor1 .floor2_main .floor_main_l .f1-brand li, #main .container .floor1 .floor2_main .floor_main_l .f2-brand li, #main .container .floor2 .floor1_main .floor_main_l .f1-brand li, #main .container .floor2 .floor1_main .floor_main_l .f2-brand li, #main .container .floor2 .floor2_main .floor_main_l .f1-brand li, #main .container .floor2 .floor2_main .floor_main_l .f2-brand li {
   float: left;
   width: 83px;
   height: 56px;
   background: #fff;
-  margin: 1px 0 0 1px;
+  margin: 5px 0 0 1px;
   text-align: center;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f1_size {
+#main .container .floor1 .floor1_main .floor_main_l .f1_size, #main .container .floor1 .floor1_main .floor_main_l .f2_size, #main .container .floor1 .floor2_main .floor_main_l .f1_size, #main .container .floor1 .floor2_main .floor_main_l .f2_size, #main .container .floor2 .floor1_main .floor_main_l .f1_size, #main .container .floor2 .floor1_main .floor_main_l .f2_size, #main .container .floor2 .floor2_main .floor_main_l .f1_size, #main .container .floor2 .floor2_main .floor_main_l .f2_size {
   margin: 6px 0 0 5px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f1_size li {
+#main .container .floor1 .floor1_main .floor_main_l .f1_size li, #main .container .floor1 .floor1_main .floor_main_l .f2_size li, #main .container .floor1 .floor2_main .floor_main_l .f1_size li, #main .container .floor1 .floor2_main .floor_main_l .f2_size li, #main .container .floor2 .floor1_main .floor_main_l .f1_size li, #main .container .floor2 .floor1_main .floor_main_l .f2_size li, #main .container .floor2 .floor2_main .floor_main_l .f1_size li, #main .container .floor2 .floor2_main .floor_main_l .f2_size li {
   float: left;
   background: #ddd;
   margin: 2px 0 0 2px;
@@ -117,11 +114,11 @@
   height: 26px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f_color {
+#main .container .floor1 .floor1_main .floor_main_l .f_color, #main .container .floor1 .floor2_main .floor_main_l .f_color, #main .container .floor2 .floor1_main .floor_main_l .f_color, #main .container .floor2 .floor2_main .floor_main_l .f_color {
   margin: 6px 0 0 5px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_l .f_color li {
+#main .container .floor1 .floor1_main .floor_main_l .f_color li, #main .container .floor1 .floor2_main .floor_main_l .f_color li, #main .container .floor2 .floor1_main .floor_main_l .f_color li, #main .container .floor2 .floor2_main .floor_main_l .f_color li {
   float: left;
   background: #ddd;
   margin: 2px 0 0 2px;
@@ -129,37 +126,47 @@
   height: 26px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_c .goods-small {
-  width: 444px;
+#main .container .floor1 .floor1_main .floor1_main_c .goods-small, #main .container .floor1 .floor1_main .floor1_main_c .goods-small2, #main .container .floor1 .floor1_main .floor2_main_c .goods-small, #main .container .floor1 .floor1_main .floor2_main_c .goods-small2, #main .container .floor1 .floor2_main .floor1_main_c .goods-small, #main .container .floor1 .floor2_main .floor1_main_c .goods-small2, #main .container .floor1 .floor2_main .floor2_main_c .goods-small, #main .container .floor1 .floor2_main .floor2_main_c .goods-small2, #main .container .floor2 .floor1_main .floor1_main_c .goods-small, #main .container .floor2 .floor1_main .floor1_main_c .goods-small2, #main .container .floor2 .floor1_main .floor2_main_c .goods-small, #main .container .floor2 .floor1_main .floor2_main_c .goods-small2, #main .container .floor2 .floor2_main .floor1_main_c .goods-small, #main .container .floor2 .floor2_main .floor1_main_c .goods-small2, #main .container .floor2 .floor2_main .floor2_main_c .goods-small, #main .container .floor2 .floor2_main .floor2_main_c .goods-small2 {
+  width: 498px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_c .goods-small li {
+#main .container .floor1 .floor1_main .floor1_main_c .goods-small li, #main .container .floor1 .floor1_main .floor1_main_c .goods-small2 li, #main .container .floor1 .floor1_main .floor2_main_c .goods-small li, #main .container .floor1 .floor1_main .floor2_main_c .goods-small2 li, #main .container .floor1 .floor2_main .floor1_main_c .goods-small li, #main .container .floor1 .floor2_main .floor1_main_c .goods-small2 li, #main .container .floor1 .floor2_main .floor2_main_c .goods-small li, #main .container .floor1 .floor2_main .floor2_main_c .goods-small2 li, #main .container .floor2 .floor1_main .floor1_main_c .goods-small li, #main .container .floor2 .floor1_main .floor1_main_c .goods-small2 li, #main .container .floor2 .floor1_main .floor2_main_c .goods-small li, #main .container .floor2 .floor1_main .floor2_main_c .goods-small2 li, #main .container .floor2 .floor2_main .floor1_main_c .goods-small li, #main .container .floor2 .floor2_main .floor1_main_c .goods-small2 li, #main .container .floor2 .floor2_main .floor2_main_c .goods-small li, #main .container .floor2 .floor2_main .floor2_main_c .goods-small2 li {
   background-color: #fff;
   border-left: 1px solid #F4F4F4;
   border-bottom: 1px solid #F4F4F4;
   float: left;
-  width: 148px;
+  width: 166px;
   height: 166px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_c .goods-big {
-  width: 303px;
+#main .container .floor1 .floor1_main .floor1_main_c .goods-small li img, #main .container .floor1 .floor1_main .floor1_main_c .goods-small2 li img, #main .container .floor1 .floor1_main .floor2_main_c .goods-small li img, #main .container .floor1 .floor1_main .floor2_main_c .goods-small2 li img, #main .container .floor1 .floor2_main .floor1_main_c .goods-small li img, #main .container .floor1 .floor2_main .floor1_main_c .goods-small2 li img, #main .container .floor1 .floor2_main .floor2_main_c .goods-small li img, #main .container .floor1 .floor2_main .floor2_main_c .goods-small2 li img, #main .container .floor2 .floor1_main .floor1_main_c .goods-small li img, #main .container .floor2 .floor1_main .floor1_main_c .goods-small2 li img, #main .container .floor2 .floor1_main .floor2_main_c .goods-small li img, #main .container .floor2 .floor1_main .floor2_main_c .goods-small2 li img, #main .container .floor2 .floor2_main .floor1_main_c .goods-small li img, #main .container .floor2 .floor2_main .floor1_main_c .goods-small2 li img, #main .container .floor2 .floor2_main .floor2_main_c .goods-small li img, #main .container .floor2 .floor2_main .floor2_main_c .goods-small2 li img {
+  width: 166px;
+  height: 166px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_c .goods-big li {
+#main .container .floor1 .floor1_main .floor1_main_c .goods-big, #main .container .floor1 .floor1_main .floor1_main_c .goods-big2, #main .container .floor1 .floor1_main .floor2_main_c .goods-big, #main .container .floor1 .floor1_main .floor2_main_c .goods-big2, #main .container .floor1 .floor2_main .floor1_main_c .goods-big, #main .container .floor1 .floor2_main .floor1_main_c .goods-big2, #main .container .floor1 .floor2_main .floor2_main_c .goods-big, #main .container .floor1 .floor2_main .floor2_main_c .goods-big2, #main .container .floor2 .floor1_main .floor1_main_c .goods-big, #main .container .floor2 .floor1_main .floor1_main_c .goods-big2, #main .container .floor2 .floor1_main .floor2_main_c .goods-big, #main .container .floor2 .floor1_main .floor2_main_c .goods-big2, #main .container .floor2 .floor2_main .floor1_main_c .goods-big, #main .container .floor2 .floor2_main .floor1_main_c .goods-big2, #main .container .floor2 .floor2_main .floor2_main_c .goods-big, #main .container .floor2 .floor2_main .floor2_main_c .goods-big2 {
+  width: 338px;
+}
+
+#main .container .floor1 .floor1_main .floor1_main_c .goods-big li, #main .container .floor1 .floor1_main .floor1_main_c .goods-big2 li, #main .container .floor1 .floor1_main .floor2_main_c .goods-big li, #main .container .floor1 .floor1_main .floor2_main_c .goods-big2 li, #main .container .floor1 .floor2_main .floor1_main_c .goods-big li, #main .container .floor1 .floor2_main .floor1_main_c .goods-big2 li, #main .container .floor1 .floor2_main .floor2_main_c .goods-big li, #main .container .floor1 .floor2_main .floor2_main_c .goods-big2 li, #main .container .floor2 .floor1_main .floor1_main_c .goods-big li, #main .container .floor2 .floor1_main .floor1_main_c .goods-big2 li, #main .container .floor2 .floor1_main .floor2_main_c .goods-big li, #main .container .floor2 .floor1_main .floor2_main_c .goods-big2 li, #main .container .floor2 .floor2_main .floor1_main_c .goods-big li, #main .container .floor2 .floor2_main .floor1_main_c .goods-big2 li, #main .container .floor2 .floor2_main .floor2_main_c .goods-big li, #main .container .floor2 .floor2_main .floor2_main_c .goods-big2 li {
   background-color: #fff;
   border-left: 1px solid #F4F4F4;
   border-bottom: 1px solid #F4F4F4;
   height: 251px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_r {
-  border: 1px solid #f4f4f4;
-  height: 500px;
-  width: 157px;
+#main .container .floor1 .floor1_main .floor1_main_c .goods-big li img, #main .container .floor1 .floor1_main .floor1_main_c .goods-big2 li img, #main .container .floor1 .floor1_main .floor2_main_c .goods-big li img, #main .container .floor1 .floor1_main .floor2_main_c .goods-big2 li img, #main .container .floor1 .floor2_main .floor1_main_c .goods-big li img, #main .container .floor1 .floor2_main .floor1_main_c .goods-big2 li img, #main .container .floor1 .floor2_main .floor2_main_c .goods-big li img, #main .container .floor1 .floor2_main .floor2_main_c .goods-big2 li img, #main .container .floor2 .floor1_main .floor1_main_c .goods-big li img, #main .container .floor2 .floor1_main .floor1_main_c .goods-big2 li img, #main .container .floor2 .floor1_main .floor2_main_c .goods-big li img, #main .container .floor2 .floor1_main .floor2_main_c .goods-big2 li img, #main .container .floor2 .floor2_main .floor1_main_c .goods-big li img, #main .container .floor2 .floor2_main .floor1_main_c .goods-big2 li img, #main .container .floor2 .floor2_main .floor2_main_c .goods-big li img, #main .container .floor2 .floor2_main .floor2_main_c .goods-big2 li img {
+  width: 338px;
+  height: 251px;
 }
 
-#main .container .floor1 .floor1_main .floor_main_r .rank li {
+#main .container .floor1 .floor1_main .floor_main_r, #main .container .floor1 .floor2_main .floor_main_r, #main .container .floor2 .floor1_main .floor_main_r, #main .container .floor2 .floor2_main .floor_main_r {
+  border: 1px solid #f4f4f4;
+  height: 500px;
+  width: 200px;
+}
+
+#main .container .floor1 .floor1_main .floor_main_r .rank li, #main .container .floor1 .floor2_main .floor_main_r .rank li, #main .container .floor2 .floor1_main .floor_main_r .rank li, #main .container .floor2 .floor2_main .floor_main_r .rank li {
   border-bottom: 1px solid #f4f4f4;
   border-right: 1px solid #f4f4f4;
   height: 32px;
