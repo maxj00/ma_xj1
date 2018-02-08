@@ -39,20 +39,20 @@
   height: 556px;
 }
 
-#main .container .details-goods .details_l .samllListbox {
+#main .container .details-goods .details_l .smallListbox {
   border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
 }
 
-#main .container .details-goods .details_l .samllListbox ul li {
+#main .container .details-goods .details_l .smallListbox ul li {
   float: left;
   border: 1px solid #ddd;
   margin: 0 4px;
   padding: 6px 2px 2px;
 }
 
-#main .container .details-goods .details_l .samllListbox ul li img {
+#main .container .details-goods .details_l .smallListbox ul li img {
   width: 54px;
   height: 54px;
 }
@@ -152,7 +152,7 @@
   border: 1px solid #red;
 }
 
-#main .container .details-goods .details_r .sku .sku-box dl dd .qty {
+#main .container .details-goods .details_r .sku .sku-box dl dd .num {
   width: 54px;
   border: 1px solid #ddd;
   text-align: center;

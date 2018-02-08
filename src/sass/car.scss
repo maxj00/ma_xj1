@@ -1,0 +1,89 @@
+#main{
+    margin-bottom: 20px;
+    .container{
+        width: 980px;
+        .main_t{
+            padding: 10px 0 10px;
+            border-bottom: 1px solid #000;
+            margin-bottom: 10px;
+        }
+        .main_c{
+            #cartable{
+                border: 1px solid #ddd;
+                width: 100%;
+                tbody{
+                    display: table-row-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                }
+                thead{
+                    display: table-header-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                    background:#f3f3f3;
+                    th{
+                        padding: 10px 0;
+                        font-size: 12px;
+                    }
+                }
+                tbody{
+                    td{
+                        border-bottom:1px solid #ccc;
+                        text-align: center;
+                        img{
+                            width: 60px; height: 60px;
+                        }
+                    }
+                    .text-qty{
+                        padding: 3px 2px 0 3px;
+                        height: 16px;
+                        border-left: 1px solid #B2B4BC;
+                        border-right: 1px solid #AEB3BB;
+                        border-top: 1px solid #84868C;
+                        border-bottom: 1px solid #C9CFD4;
+                        background-color: #FFFFFF;
+                    }
+                }
+                tfoot{
+                    display: table-footer-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                    .sum{
+                        background:#f3f3f3;
+                        text-align:right;
+                        border-top:1px solid #DDDCD7;
+                    }
+                    #totalCash{
+                        color:red;
+                        font-size:18px;
+                    }
+                    #totalQty{
+                        color:red;
+                    }
+                   tr{
+                        display: table-row;
+                        vertical-align: inherit;
+                        border-color: inherit;
+                        td{
+                            text-align:left;
+                            border:none;
+                        }
+                   }
+                }
+            }
+            .tfoot{
+                padding: 15px 10px 0;
+                text-align: center;
+                overflow: hidden;
+                .submit{
+                    background: url(../imgaes/submit.gif) no-repeat;
+                    width: 145px;
+                    height: 54px;
+                    border: none;
+                    float: right;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

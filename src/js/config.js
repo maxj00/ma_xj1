@@ -8,7 +8,6 @@ require.config({
         'common':'common',
         'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
         'mjCarousel':'../lib/jquery-mjCarousel/jquery.mjCarousel',
-        'ajax':'../lib/ajax_JJ'
     },
     shim:{
         // 设置依赖

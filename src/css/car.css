@@ -1,0 +1,103 @@
+#main {
+  margin-bottom: 20px;
+}
+
+#main .container {
+  width: 980px;
+}
+
+#main .container .main_t {
+  padding: 10px 0 10px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+#main .container .main_c #cartable {
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+#main .container .main_c #cartable tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+#main .container .main_c #cartable thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  background: #f3f3f3;
+}
+
+#main .container .main_c #cartable thead th {
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#main .container .main_c #cartable tbody td {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#main .container .main_c #cartable tbody td img {
+  width: 60px;
+  height: 60px;
+}
+
+#main .container .main_c #cartable tbody .text-qty {
+  padding: 3px 2px 0 3px;
+  height: 16px;
+  border-left: 1px solid #B2B4BC;
+  border-right: 1px solid #AEB3BB;
+  border-top: 1px solid #84868C;
+  border-bottom: 1px solid #C9CFD4;
+  background-color: #FFFFFF;
+}
+
+#main .container .main_c #cartable tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+#main .container .main_c #cartable tfoot .sum {
+  background: #f3f3f3;
+  text-align: right;
+  border-top: 1px solid #DDDCD7;
+}
+
+#main .container .main_c #cartable tfoot #totalCash {
+  color: red;
+  font-size: 18px;
+}
+
+#main .container .main_c #cartable tfoot #totalQty {
+  color: red;
+}
+
+#main .container .main_c #cartable tfoot tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+#main .container .main_c #cartable tfoot tr td {
+  text-align: left;
+  border: none;
+}
+
+#main .container .main_c .tfoot {
+  padding: 15px 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+#main .container .main_c .tfoot .submit {
+  background: url(../imgaes/submit.gif) no-repeat;
+  width: 145px;
+  height: 54px;
+  border: none;
+  float: right;
+  cursor: pointer;
+}

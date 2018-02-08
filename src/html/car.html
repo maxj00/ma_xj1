@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>淘鞋网购物车</title>
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/car.css" />
+        <script src="../js/require.js" data-main="../js/car"></script>
+    </head>
+    <body>
+        <div id="headerbox"></div>
+        <div id="main">
+            <div class="container clearfix">
+                <div class="main_t clearfix">
+                    <h1 class="fl"><a href="../index.html"><img src="../imgaes/logocar.gif" height="32" width="259" alt="" /></a></h1>
+                    <div class="hotline fr"><img src="../imgaes/hotline.gif" height="24" width="303" alt="" /></div>
+                </div>
+                <div class="main_c">
+                    <div class="step">
+                        <img src="../imgaes/step.jpg" height="61" width="658" alt="" />
+                    </div>
+                    <table id="cartable">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" title="全选" id="checkAll" /></th>
+                                <th>产品图片</th>
+                                <th>商品名称</th>
+                                <th>淘鞋价</th>
+                                <th>优惠</th>
+                                <th>数量</th>
+                                <th>合计</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>            
+                        </tbody>
+                         <tfoot>
+                              <tr>
+                                <td colspan="8">
+                                  <table width="100%">
+                                    <colgroup>
+                                      <col width="80%" />
+                                    </colgroup>
+                                    <tr>
+                                      <td class="tl"><a href="#" id="batchDelete" class="batch-delete">删除选中商品</a></td>
+                                      <td><b id="totalQty">3</b> 件商品</td>
+                                      <td>总价：</td>
+                                      <td><span id="amountCash">992.00</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td>优惠：</td>
+                                      <td><span id="reduceCash">-</span></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="8" class="sum">总计(不含运费)：<em id="totalCash">992.00</em></td>
+                              </tr>
+                        </tfoot>
+                    </table>
+                    <div class="tfoot clr">
+                        <div class="fleft fl">如果你在购物中遇到问题，请<a href="" style="color:red;">点击此处</a>反馈</div>
+                        <div class="fright fr">
+                            <a href="#" id="checkout" class="submit"></a><a href="http://www.taoxie.com/" class="keep">继续购物</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerbox"></div>
+    </body>
+</html>
