@@ -20,14 +20,5 @@
 
         $res = $conn->query($sql);
     }
-
-    if($cat == 'car'){
-            $data = $conn->query("select * from car where category='car'");
-    }
     
-        
-        $row = $data->fetch_all(MYSQLI_ASSOC);
-
-        echo json_encode($row,JSON_UNESCAPED_UNICODE);
-     
-?>
+?>  

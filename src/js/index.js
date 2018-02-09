@@ -108,6 +108,7 @@ require(['config'],function(){
                 });
             }
         })
+        // 2楼啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
         $.ajax({
             url: '../api/list.php',
             type: 'get',
@@ -160,5 +161,7 @@ require(['config'],function(){
                 });
             }
         })
+        // 3楼啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+        
     })
 })

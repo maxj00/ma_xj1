@@ -23,6 +23,7 @@
 }
 
 #main .container .details-goods .details_l {
+  position: relative;
   float: left;
   width: 558px;
 }
