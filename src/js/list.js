@@ -3,24 +3,28 @@ require(['config'],function(){
         $('#headerbox').load('../html/header.html')
         $('#footerbox').load('../html/footer.html')
                 let pageNo = 1;
-                let qty = 7;
+                let qty = 15;
+                list();
         window.onscroll =function(){
-            let t =document.documentElement.scrollTop;
+            let t =document.documentElement.scrollTop;console.log(t)
             let h =window.innerHeight;
-            if(t >= document.documentElement.scrollHeight - h){
+            if(t >= document.documentElement.scrollHeight - h - 500){
                     pageNo++;
-                $.ajax({
+                    list();
+            }
+        }
+        function list(){
+            $.ajax({
                     url: '../api/goods.php',
                     type: 'get',
                     data: {
                         html:'list',
                         pageNo: pageNo,
-                        qty: qty,
                     },
                     dataType: 'json',
                     success:function(data){console.log(data)
                         var  ul =document.querySelector('.goods')
-                        ul.innerHTML = data.map(item=>{
+                        let cunfang = data.newdata.map(item=>{
                             return`
                                 <li id="${item.id}">
                                     <div class="goods_list">
@@ -59,8 +63,9 @@ require(['config'],function(){
                                 </li>
                             `
                         }).join('')
+                            $('.goods').append(cunfang);
                              // 跳转页面传参数
-                        data.map(function (item){
+                        data.newdata.map(function (item){
                             var res = document.getElementById(item.id);
                             console.log(res);
                             // 点击对象事件
@@ -79,21 +84,6 @@ require(['config'],function(){
                     }
                 })
         }
-       
-            // 懒加载
-        //         let pageNo = 1;
-        //         let qty = 7;
-        // window.onscroll =function(){
-        //     let t =document.documentElement.scrollTop;
-        //     let h =window.innerHeight;
-        //     if(t >= document.documentElement.scrollHeight - h){
-        //             pageNo++;
-        //         xhr.open('post','../api/football.php');
-
-        //         xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
-        //         // POS请求发送数据
-        //         xhr.send(`pageNo=${pageNo}&qty=${qty}`);
-        //     }
-        // }
+                
     })
 })
