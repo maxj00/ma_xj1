@@ -5,10 +5,10 @@
     $cat = isset($_GET['html']) ? $_GET['html'] : null;
     $page_no = isset($_GET['pageNo']) ? $_GET['pageNo'] : 1;
     $qty = isset($_GET['qty']) ? $_GET['qty'] : 5;
+        $sort = "SELECT * FROM goods2 ORDER BY price";
 
     // 编写sql语句
     $sql = "select * from goods2 where";
-
     // 根据分类改变sql语句
     if($cat){
         $sql .= " html='list' and"; //select * from goods where category=nike

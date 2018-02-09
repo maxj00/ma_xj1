@@ -3,6 +3,8 @@
 }
 
 #main .container .brand-wrap {
+  margin: auto;
+  width: 1080px;
   height: 73px;
   border: 2px solid #ccc;
 }

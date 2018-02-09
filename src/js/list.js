@@ -50,7 +50,7 @@ require(['config'],function(){
                                             </div>
                                         </div>
                                         <div class="price">
-                                            <span class="real-price">￥188</span>
+                                            <span class="real-price">${item.price}</span>
                                             <del class="cost-price">388</del>
                                         </div>
                                         <div class="goodsName">
@@ -84,6 +84,8 @@ require(['config'],function(){
                     }
                 })
         }
-                
+        $('.sort').on('click',function(){
+            list();
+        })     
     })
 })
